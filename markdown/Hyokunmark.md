@@ -1,12 +1,16 @@
 **HI**
 
-*Computer System*
+*Computer System Design Yim Hyo Kyun*
 
-[https://github.com/yimoyimo]My Github URL
+##URL
+[My Github URL](https://github.com/yimoyimo)
 
-![image](http://i.imgur.com/iU1SwYe.gif)
+##IMAGE
+![image](http://i.imgur.com/7ZTDKHy.jpg) 
 
 - hi   
+- bye  
+
 >- one ho   
 >- two ho   
 >- three ho   
