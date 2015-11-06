@@ -6,10 +6,10 @@
 
 ![image](http://i.imgur.com/iU1SwYe.gif)
 
--hi   
->-one ho   
->-two ho   
->-three ho   
+- hi   
+>- one ho   
+>- two ho   
+>- three ho   
 
 #one
 ##two
@@ -19,16 +19,13 @@
 
 ---------
 
-1.abc  
-2.def  
-3.ghi  
+1. abc  
+2. def  
+3. ghi  
 
-/hi   
-/hihi   
-/hihihi   
 
-*hahaha    
-*hahahaha    
+*  hahaha    
+* hahahaha    
 
 ```{.python}
 s = "Python programing"
