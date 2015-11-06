@@ -28,3 +28,9 @@ cols1 | cols2 | cols3
 chiken | pizza | candy
 ---- | ---- | ----
 chiken2 | pizza2 | candy2
+
+'''{.python}
+ex = "my code test"
+print ex
+
+'''
