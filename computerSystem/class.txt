@@ -1,0 +1,95 @@
+public class DataModel
+{
+
+	public string location;
+	public string situation;
+}
+
+public class DataReceiver
+{
+	pubilc DataModel data = new DataModel();
+	
+	public DataReceiver()
+	{
+		GetData();	
+	}
+
+	public void GetData()
+	{
+		data.location = //기기로부터 정보를 받아와서 저장;
+		data.situation = //기기로부터 정보를 받아와서 저장;
+	}
+
+}
+
+
+public class DataProcessor : DataReceiver
+{
+
+	public DataProcessor()
+	{
+		DataProcess();
+	}
+
+	
+`	pubilc void DataProcess()
+	{
+		if(this.data.situation.equal("긴급"))
+		{
+			//긴급상황일 경우에 생기는 상황을 분석 처리
+			//부모폰에 상황을 알림
+		}
+		else
+		{
+			//평시상황일 경우 생기는 상황 처리
+		}
+	}
+}
+
+public class SettingModel
+{
+
+	public bool switch;
+	public string Text;
+}
+
+
+public class SettingReceiver
+{
+	pubilc SettingModel settingData = new SettingModel;
+
+	public SettingReceiver()
+	{
+		SetData();	
+	}
+	
+	public void SetData()
+	{
+		settingData.switch = //핸드폰으로 받은 정보;
+		settingData.Text = //핸드폰으로 받은 정보;
+	}
+
+}
+
+public class DataSender : SettingReceiver
+{
+	public DataSender()
+	{
+		
+	}
+	
+	public void SendData()
+	{
+		if(this.settingData.switch)
+		{
+			//경고 신호를 보냄
+			//세팅한 Text 데이터를 보냄
+		}
+		else
+		{
+			//평시상태
+		}
+			
+	}
+}
+
