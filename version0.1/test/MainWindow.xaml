@@ -1,0 +1,12 @@
+﻿<Window x:Class="test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="452" Width="606">
+    <Grid>
+        <TextBox x:Name="txt_send" Height="50" Margin="137,170,121,193"></TextBox>
+        <TextBox x:Name="txt_receive" Height="50" Margin="137,219,121,144" />
+        <Button x:Name="btn_emergency" Content="긴급" Height="100" Margin="12,169,472,144" Width="100" />
+        <Button x:Name="btn_nomal" Content="평상시" Height="100" Margin="12,275,472,38" Width="100" />
+        <Button x:Name="btn_Iclick" Content="아이가 클릭!" Height="100" HorizontalAlignment="Left" Margin="472,169,0,144" Width="100" />
+    </Grid>
+</Window>
